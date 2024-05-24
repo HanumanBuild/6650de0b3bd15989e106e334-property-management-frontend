@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Support component to provide 24/7 assistance information
 function Support() {
   return (
     <div className="p-4">

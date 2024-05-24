@@ -21,7 +21,7 @@ function App() {
           </ul>
         </nav>
       </header>
-      <main className="p-4">
+      <main className="flex flex-col items-center justify-center min-h-screen p-4">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about-us" component={AboutUs} />
