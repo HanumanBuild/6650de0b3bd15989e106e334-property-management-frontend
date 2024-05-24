@@ -26,9 +26,9 @@ function Services() {
   };
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Our Services</h1>
-      <p>We offer a range of services to manage your properties effectively.</p>
+    <div className="p-4">
+      <h1 className="text-3xl font-bold underline mb-4">Our Services</h1>
+      <p className="text-lg mb-4">We offer a range of services to manage your properties effectively.</p>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label className="block text-sm font-medium text-gray-700">Property ID</label>

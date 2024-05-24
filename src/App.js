@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav className="bg-gray-800 p-4">
-          <ul className="flex space-x-4">
+          <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
             <li><Link to="/" className="text-white">Home</Link></li>
             <li><Link to="/about-us" className="text-white">About Us</Link></li>
             <li><Link to="/services" className="text-white">Services</Link></li>

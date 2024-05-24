@@ -27,9 +27,9 @@ function ContactUs() {
   };
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Contact Us</h1>
-      <p>Get in touch with us for any inquiries or support.</p>
+    <div className="p-4">
+      <h1 className="text-3xl font-bold underline mb-4">Contact Us</h1>
+      <p className="text-lg mb-4">Get in touch with us for any inquiries or support.</p>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label className="block text-sm font-medium text-gray-700">Name</label>
